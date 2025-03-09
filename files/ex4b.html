@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+    <link rel="icon" href="apple-touch-icon.png">
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        #block {
+            height: 40px;
+            width: 65px;
+            margin: 20px;
+            background-color: black;
+            border-radius: 5px;
+            animation-name: block-animation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes block-animation {
+            0% {
+                transform: translateX(0px)translateY(0px)rotate(-360deg);
+            }
+
+            25% {
+                transform: translateX(500px)translateY(0px)rotate(360deg);
+            }
+
+            50% {
+                transform: translateX(500px)translateY(500px)rotate(-360deg);
+            }
+
+            75% {
+                transform: translateX(0px)translateY(500px)rotate(360deg);
+            }
+
+            100% {
+                transform: translateX(0px)translateY(0px)rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="block"></div>
+</body>
+
+</html>

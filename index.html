@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Varshith Pilli</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="apple-touch-icon.png">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let headerText = document.getElementById("header-content");
+            let navMenu = document.querySelector(".nav");
+
+            headerText.addEventListener("animationend", function (event) {
+                if (event.animationName === "header-text") {
+                    navMenu.classList.add("show-nav");
+                }
+            });
+
+            headerText.addEventListener("animationstart", function (event) {
+                if (event.animationName === "header-text") {
+                    navMenu.classList.remove("show-nav");
+                }
+            });
+        });
+        
+        
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <div id="header-content">
+            Varshith Pilli
+        </div>
+        <ul class="nav">
+
+            <a href="index.html">
+                <li>Home</li>
+            </a><a href="#">
+                <li>Projects</li>
+            </a><a href="#">
+                <li>Contact</li>
+            </a><a href="assignments.html">
+                <li>Assignments</li>
+            </a>
+        </ul>
+    </div>
+
+
+    <div class="main">
+        <h1>Welcome</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum aspernatur officiis ea a inventore
+            debitis rem. Adipisci rem, ut beatae nisi delectus tenetur? Cum voluptate tenetur optio libero
+            voluptatibus eligendi similique inventore illum qui quae possimus est tempora numquam iusto rerum
+            officiis porro doloribus magnam, unde temporibus dolorum odio enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta obcaecati consequuntur sed magni similique
+            illo omnis praesentium molestias corrupti libero, architecto tempora cupiditate ipsam, ipsa aliquid
+            delectus explicabo, eius commodi?</p>
+    </div>
+
+    <div class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/thesixthdude" target="_blank" id="github" class="social-icon">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/varshith-pilli/" target="_blank" id="linkedin" class="social-icon">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://x.com/thesixthdude" target="_blank" id="twitter" class="social-icon">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="mailto:varshith6946@gmail.com" target="_blank" id="mail" class="social-icon">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+        <div class="footer-text">
+            Made from scratch, by Var.
+        </div>
+        <div class="icon">
+            <a href="index.html">
+                <img src="apple-touch-icon.png">
+            </a>
+        </div>
+        <div class="footer-text" id="country-selector">
+            INDIA | IN
+        </div>
+
+    </div>
+</body>
+
+</html>

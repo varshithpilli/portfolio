@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 4</title>
+    <link rel="icon" href="apple-touch-icon.png">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 20vh 10vh 30vh 30vh 10vh;
+            grid-template-areas:
+                "h h h h h"
+                "n n n n n"
+                "m m m m sb"
+                "a a a a sb"
+                "f f f f f";
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 30px;
+            border: 5px solid white;
+            background-color: #ff6347;
+            grid-area: h;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            border: 5px solid white;
+            background-color: #3498db;
+            grid-area: n;
+        }
+
+        .nav-items {
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #f39c12;
+            grid-area: sb;
+            border: 5px solid white;
+        }
+
+        .heading {
+            font-size: 20px;
+            font-weight: bold;
+            padding-left: 15px;
+        }
+
+        .text {
+            padding: 15px;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 5px solid white;
+            background-color: #2ecc71;
+            grid-area: m;
+        }
+
+        .article {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 5px solid white;
+            background-color: #9b59b6;
+            grid-area: a;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid white;
+            background-color: #34495e;
+            grid-area: f;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">Web Programming</div>
+
+        <div class="navbar">
+            <div class="nav-items">Home</div>
+            <div class="nav-items">About</div>
+            <div class="nav-items">Contact</div>
+        </div>
+
+        <div class="sidebar">
+            <div class="heading">Sidebar</div>
+            <div class="text">This is the sidebar, containing related links or ads.</div>
+        </div>
+
+        <div class="main">
+            <div class="heading">Main Section</div>
+            <div class="text">
+                This is the main content of the page.
+            </div>
+        </div>
+
+        <div class="article">
+            <div class="heading">Article</div>
+            <div class="text">
+                This is a standalone article related to the main content.
+            </div>
+        </div>
+
+        <div class="footer">
+            &copy; 2025 Your Company. All rights reserved.
+        </div>
+
+    </div>
+</body>
+
+</html>
