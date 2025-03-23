@@ -32,7 +32,7 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import github_mark from './github-mark.png'
 import github_mark_white from './github-mark-white.png'
-import profile_pic from './ip.jpeg'
+import profile_pic from './ip.png'
 import x_black from './x-black.svg'
 import x_white from './x-white.svg'
 import linkedin_white from './linkedin-white.svg'

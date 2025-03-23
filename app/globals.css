@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #FDFAF6;
   --foreground: #171717;
 }
 
@@ -36,4 +36,12 @@ html{
 
 ::-webkit-scrollbar-thumb {
   background-color: #3D3D3D;
+}
+
+.font-cg {
+  font-family: var(--font-cormorantGaramond);
+}
+
+.font-ct {
+  font-family: var(--font-crimsonText);
 }

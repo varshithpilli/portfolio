@@ -51,11 +51,11 @@ const Navbar: React.FC = () => {
     <>
       <nav className="w-full fixed top-0 px-5 py-2 lg:px-8 xl:px-[8%] flex items-center justify-between z-50 bg-white/50 dark:bg-black/50 shadow-sm backdrop-blur-lg">
         <a href="#home">
-          <div className='font-semibold text-3xl'>Varshith</div>
+          <div className='font-cg font-semibold text-4xl'>Varshith</div>
         </a>
 
         {/* Desktop Menu */}
-        <ul className="md:flex items-center gap-6 lg:gap-8 px-12 py-3">
+        <ul className="hidden font-ct md:flex items-center gap-6 lg:gap-8 px-12 py-3 text-xl">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -93,19 +93,19 @@ const Navbar: React.FC = () => {
         </button>
 
         {/* Mobile Menu Links */}
-        <li className="cursor-pointer py-2 border-b border-gray-300 dark:border-gray-700">
+        <li className="font-ct cursor-pointer py-2 border-b border-gray-300 dark:border-gray-700">
           <a onClick={closeMenu} href="#home">Home</a>
         </li>
-        <li className="cursor-pointer py-2 border-b border-gray-300 dark:border-gray-700">
+        <li className="font-ct cursor-pointer py-2 border-b border-gray-300 dark:border-gray-700">
           <a onClick={closeMenu} href="#about">About</a>
         </li>
-        <li className="cursor-pointer py-2 border-b border-gray-300 dark:border-gray-700">
+        <li className="font-ct cursor-pointer py-2 border-b border-gray-300 dark:border-gray-700">
           <a onClick={closeMenu} href="#skills">Skills</a>
         </li>
-        <li className="cursor-pointer py-2 border-b border-gray-300 dark:border-gray-700">
+        <li className="font-ct cursor-pointer py-2 border-b border-gray-300 dark:border-gray-700">
           <a onClick={closeMenu} href="#projects">Projects</a>
         </li>
-        <li className="cursor-pointer py-2 border-b border-gray-300 dark:border-gray-700">
+        <li className="font-ct cursor-pointer py-2 border-b border-gray-300 dark:border-gray-700">
           <a onClick={closeMenu} href="#contact">Contact</a>
         </li>
       </ul>
