@@ -8,19 +8,33 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-work: var(--font-workSans);
+  --font-ovo: var(--font-ovo);
+  --font-roboto: var(--font-roboto);
+  --font-jos: var(--font-jos);
+  --font-prompt: var(--font-prompt);
+  --font-poppins: var(--font-poppins);
+  --color-lightHover: '#fcf4ff';
+  --color-darkHover: '#2a004a';
+  --color-darkBg: #131314;
+  --color-darkBg2: #11031f;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@custom-variant dark (&:where(.dark, .dark *));
+
+html{
+  @apply scroll-smooth;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb { /* Dark color for the thumb */
+  background-color: #232325;
+}
+
+::-webkit-scrollbar-track { /* Dark color for the track */
+  background-color: #00000047; 
+  /* @apply bg-white */
 }

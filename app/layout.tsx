@@ -1,20 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Josefin_Sans, Ovo, Poppins, Prompt, Roboto, Work_Sans } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const workSans = Work_Sans({
+  variable: "--font-workSans",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
   title: "Varshith Pilli",
-  description: "Portfolio website made by Var, generated using next app",
+  description: "Made by Var, using Next App",
 };
 
 export default function RootLayout({
@@ -25,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${workSans.variable} antialiased leading-8 overflow-x-hidden dark:bg-darkBg dark:text-white/90 font-prompt tracking-wide`}
       >
         {children}
       </body>
