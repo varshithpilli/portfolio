@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Josefin_Sans, Ovo, Poppins, Prompt, Roboto, Work_Sans, Cormorant_Garamond, Crimson_Text, Merriweather  } from "next/font/google";
+import {Work_Sans, Cormorant_Garamond, Crimson_Text, Merriweather  } from "next/font/google";
 import "./globals.css";
 
 const workSans = Work_Sans({
