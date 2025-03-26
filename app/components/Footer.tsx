@@ -6,7 +6,7 @@ import { assets } from '@/assets/assets'
 const Footer: React.FC = () => {
     return (
         <div className='flex flex-col gap-3 xl:mt-10 bg-[#F8FAFC] dark:bg-[#09090a]'>
-            <ul className='flex items-center justify-center gap-8 text-gray-700 dark:text-gray-300 mt-10 mb-5 font-ct text-xl'>
+            <ul className='flex flex-col sm:flex-row  items-center justify-center sm:justify-items-start sm:pl-3 gap-4  text-gray-700 dark:text-gray-300 mt-10 mb-5 font-ct text-xl'>
                 <li><a className='hover:text-black duration-100 dark:hover:text-white' href="#home">Home</a></li>
                 <li><a className='hover:text-black duration-100 dark:hover:text-white' href="#about">About</a></li>
                 <li><a className='hover:text-black duration-100 dark:hover:text-white' href="#skills">Skills</a></li>
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
                 <a href="mailto:newbeginningspart01@gmail.com"><Image src={assets.mail_black} alt='' className='w-7 hover:scale-110 transition duration-200 dark:invert' /></a>
             </div>
             <a href="#home" className='w-fit mx-auto'><Image src={assets.favi} alt='' className='h-16 w-16 mx-auto'/></a>
-            <p className='text-center mb-2 font-ct text-xl'>by Var</p>
+            <p className='text-center font-ct text-xl mb-10'>by Var</p>
         </div>
     )
 }
