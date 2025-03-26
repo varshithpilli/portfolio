@@ -8,7 +8,7 @@ interface ProjectCardProps {
     techStack: StaticImageData[];
     codeLink?: string;
     siteLink?: string;
-  }
+}
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, desc, techStack, codeLink, siteLink }) => {
     return (
@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, desc, techStack
             <h3 className='mt-6 text-2xl text-center font-mw'>{title}</h3>
             <p className='leading-6 mt-1 text-gray-700 dark:text-gray-400 font-mw text-sm'>{desc}</p>
             <div className='mt-4 flex justify-center gap-4'>
-                {techStack.map((tech, index)=>(
+                {techStack.map((tech, index) => (
                     <Image 
                         key={index}
                         src={tech} 
@@ -26,11 +26,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, desc, techStack
                 ))}
             </div>
             <div className='flex gap-6 mt-6 justify-center mb-6 w-auto'>
-                <a href={codeLink} target='_blank' className='bg-[#0000005d]  text-white px-5 hover:scale-105 py-1.5 rounded-xl hover:bg-[#000000af] duration-200'>View Code</a>
-                <a href={codeLink} target='_blank' className='bg-[#0000005d]  text-white px-5 hover:scale-105 py-1.5 rounded-xl hover:bg-[#000000af] duration-200'>Live Site</a>
+                {codeLink && (
+                    <a href={codeLink} target='_blank' className='bg-[#0000005d] text-white px-5 hover:scale-105 py-1.5 rounded-xl hover:bg-[#000000af] duration-200'>View Code</a>
+                )}
+                {siteLink && (
+                    <a href={siteLink} target='_blank' className='bg-[#0000005d] text-white px-5 hover:scale-105 py-1.5 rounded-xl hover:bg-[#000000af] duration-200'>Live Site</a>
+                )}
             </div>
         </div>
     )
 }
 
-export default ProjectCard
+export default ProjectCard;

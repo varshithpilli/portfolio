@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
             assets.ts
           ]}
           codeLink='https://github.com/varshithpilli/notes-app'
-          siteLink='https://varshithpilli.github.io/notes-app/'
+          siteLink=''
         />
 
       </div>
