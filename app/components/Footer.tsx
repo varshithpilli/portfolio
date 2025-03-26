@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
                 <li><a className='hover:text-black duration-100 dark:hover:text-white' href="#skills">Skills</a></li>
                 <li><a className='hover:text-black duration-100 dark:hover:text-white' href="#projects">Projects</a></li>
                 <li><a className='hover:text-black duration-100 dark:hover:text-white' href="#contact">Contact</a></li>
-                <li><Link className='hover:text-black duration-100 dark:hover:text-white' href="/about" target="_blank">Assignments</Link></li>
+                <li><Link className='hover:text-black duration-100 dark:hover:text-white' href="https://github.com/varshithpilli/assignments" target="_blank">Assignments</Link></li>
             </ul>
             <div className='flex items-center justify-center gap-10 pt-2 mb-5'>
                 <a href="https://github.com/varshithpilli" target='_blank'><Image src = {assets.git_black} alt='' className='w-10 hover:scale-110 transition duration-200 dark:invert' /></a>
