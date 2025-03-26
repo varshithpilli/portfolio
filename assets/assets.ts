@@ -27,6 +27,9 @@ import mobile_icon from './mobile-icon.png';
 import ui_icon from './ui-icon.png';
 import graphics_icon from './graphics-icon.png';
 import right_arrow from './right-arrow.png';
+import favi from './apple-touch-icon.png'
+import git_white from './github_white.png'
+import git_black from './github_black.png'
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
@@ -92,6 +95,8 @@ export const assets = {
     mobile_icon,
     ui_icon,
     graphics_icon,
+    git_white,
+    git_black,
     right_arrow,
     send_icon,
     right_arrow_bold,
@@ -109,6 +114,7 @@ export const assets = {
     js,
     ts,
     react,
+    favi,
     next,
     html,
     css,

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Josefin_Sans, Ovo, Poppins, Prompt, Roboto, Work_Sans, Cormorant_Garamond, Crimson_Text  } from "next/font/google";
+import { Josefin_Sans, Ovo, Poppins, Prompt, Roboto, Work_Sans, Cormorant_Garamond, Crimson_Text, Merriweather  } from "next/font/google";
 import "./globals.css";
 
 const workSans = Work_Sans({
@@ -19,6 +19,12 @@ const ct = Crimson_Text({
   weight: ["400", "600", "700"],
 });
 
+const mw = Merriweather({
+  subsets: ["latin"],
+  variable: "--font-merriweather",
+  weight: ["400", "700"],
+});
+
 
 export const metadata: Metadata = {
   title: "Varshith Pilli",
@@ -33,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${workSans.variable} ${cg.variable} ${ct.variable} antialiased leading-8 overflow-x-hidden dark:bg-darkBg dark:text-white/90 font-prompt tracking-wide`}
+        className={`${workSans.variable} ${cg.variable} ${ct.variable} ${mw.variable} antialiased leading-8 overflow-x-hidden dark:bg-darkBg dark:text-white/90 font-prompt tracking-wide`}
       >
         {children}
       </body>

@@ -45,3 +45,7 @@ html{
 .font-ct {
   font-family: var(--font-crimsonText);
 }
+
+.font-mw {
+  font-family: var(--font-merriweather);
+}
