@@ -27,7 +27,7 @@ const Header: React.FC = () => {
                 </a>
                 <a href="/resume.pdf" download className='flex justify-center items-center gap-2 px-5 pt-1.5 pb-2 bg-black rounded-full text-white hover:scale-105 transition duration-200 dark:bg-[#FDFAF6] dark:text-black'>
                     <div>my resume</div>
-                    <Image src={assets.download_icon} className='w-4 pt-0.5 dark:invert h-6.5 w-6' alt='' />
+                    <Image src={assets.download_icon} className='w-4 pt-0.5 dark:invert h-6.5' alt='' />
                 </a>
             </div>
         </div>
