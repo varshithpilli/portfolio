@@ -30,6 +30,7 @@ import graphics_icon from './graphics-icon.png';
 import right_arrow from './right-arrow.png';
 import favi from './apple-touch-icon.png'
 import git_white from './github_white.png'
+import quiz_app from './quiz-app.png'
 import git_black from './github_black.png'
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
@@ -111,6 +112,7 @@ export const assets = {
     x_black,
     x_white,
     c,
+    quiz_app,
     python,
     java,
     js,
