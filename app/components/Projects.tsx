@@ -20,17 +20,6 @@ const Projects: React.FC = () => {
           ]}
           codeLink='https://github.com/varshithpilli/notes-app'
           />
-        <ProjectCard
-          image={assets.notes_app}
-          title='Note Taking'
-          desc='A React-based notes app with local storage, allowing users to add, edit, and delete notes. Features dark mode and intuitive keyboard shortcuts for seamless input.'
-          techStack={[
-            assets.react,
-            assets.tailwind,
-            assets.ts
-          ]}
-          codeLink='https://github.com/varshithpilli/notes-app'
-          />
 
       </div>
     </div>
