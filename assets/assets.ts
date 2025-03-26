@@ -2,6 +2,7 @@ import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
+import notes_app from './notes-app.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
@@ -35,7 +36,7 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import github_mark from './github-mark.png'
 import github_mark_white from './github-mark-white.png'
-import profile_pic from './ip.png'
+import profile_pic from './ip.jpeg'
 import x_black from './x-black.svg'
 import x_white from './x-white.svg'
 import linkedin_white from './linkedin-white.svg'
@@ -95,6 +96,7 @@ export const assets = {
     mobile_icon,
     ui_icon,
     graphics_icon,
+    notes_app,
     git_white,
     git_black,
     right_arrow,
