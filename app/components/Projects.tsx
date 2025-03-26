@@ -19,6 +19,7 @@ const Projects: React.FC = () => {
             assets.js
           ]}
           codeLink='https://github.com/varshithpilli/quiz-app'
+          siteLink='https://varshithpilli.github.io/quiz-app/'
         />
 
         <ProjectCard
@@ -31,6 +32,7 @@ const Projects: React.FC = () => {
             assets.ts
           ]}
           codeLink='https://github.com/varshithpilli/notes-app'
+          siteLink='https://varshithpilli.github.io/notes-app/'
         />
 
       </div>
