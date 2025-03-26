@@ -1,10 +1,10 @@
-import Navbar from "./Components/Navbar";
-import Header from "./Components/Header";
-import About from "./Components/About";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
-import Skills from "./Components/Skills";
-import Projects from "./Components/Projects";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 export default function Home() {  
   return (
     <>
