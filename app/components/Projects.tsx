@@ -23,6 +23,19 @@ const Projects: React.FC = () => {
         />
 
         <ProjectCard
+          image={assets.event_timer}
+          title='Calender Event Timer'
+          desc='This project manages events on a calendar, allowing users to add, delete, and view events with countdowns, while storing data in localStorage.'
+          techStack={[
+            assets.html,
+            assets.css,
+            assets.js
+          ]}
+          codeLink='https://github.com/varshithpilli/calender-events'
+          siteLink='https://varshithpilli.github.io/calendar-events/'
+        />
+
+        <ProjectCard
           image={assets.notes_app}
           title='Note Taking'
           desc='A React-based notes app with local storage, allowing users to add, edit, and delete notes. Features dark mode and intuitive keyboard shortcuts for seamless input.'

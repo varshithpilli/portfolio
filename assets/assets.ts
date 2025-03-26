@@ -37,9 +37,10 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import github_mark from './github-mark.png'
 import github_mark_white from './github-mark-white.png'
-import profile_pic from './ip.jpeg'
+import profile_pic from './ip.jpg'
 import x_black from './x-black.svg'
 import x_white from './x-white.svg'
+import event_timer from './event-timer.png'
 import linkedin_white from './linkedin-white.svg'
 import linkedin from './linkedin.svg'
 import python from './python.svg'
@@ -104,6 +105,7 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
+    event_timer,
     github_mark,
     github_mark_white,
     profile_pic,
