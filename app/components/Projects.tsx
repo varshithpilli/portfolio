@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
             assets.ts
           ]}
           codeLink='https://github.com/varshithpilli/notes-app'
-          siteLink=''
+          siteLink='https://textsave.netlify.app/'
         />
 
       </div>
