@@ -10,7 +10,7 @@ const Skills: React.FC = () => {
 
       <div className="w-[95%] md:w-auto mx-auto flex flex-col md:flex-row gap-10 flex-wrap md:flex md:justify-center">
 
-        <div className="w-auto mx-auto md:w-120 px-8 py-4 rounded-xl border border-gray-200 dark:border-black hover:-translate-y-2 transition duration-250 shadow-md bg-[#f6f6f6] dark:bg-[#202020]">
+        <div className="w-auto mx-auto md:w-120 px-8 py-4 rounded-xl border border-gray-200 dark:border-black hover:scale-105 transition duration-250 shadow-md bg-[#f6f6f6] dark:bg-[#202020]">
           <h3 className='text-center text-lg font-semibold text-gray-700 dark:text-gray-300 mb-4 font-mw'>Languages</h3>
           <div className='flex flex-wrap justify-center gap-4 w-[90%] mx-auto'>
             <div className='hover:scale-110 dark:bg-darkBg dark:border-black dark:text-gray-200 cursor-pointer transition duration-200 flex justify-center items-center py-1 pl-1 pr-4 bg-white border border-gray-300 w-fit rounded-xl'>
@@ -32,7 +32,7 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        <div className="w-auto mx-auto md:w-120 px-8 py-4 border border-gray-200 dark:border-black hover:-translate-y-2 transition duration-250 shadow-md rounded-xl bg-[#f6f6f6] dark:bg-[#202020]">
+        <div className="w-auto mx-auto md:w-120 px-8 py-4 border border-gray-200 dark:border-black hover:scale-105 transition duration-250 shadow-md rounded-xl bg-[#f6f6f6] dark:bg-[#202020]">
           <h3 className='text-center text-lg font-semibold text-gray-700 dark:text-gray-300 mb-4 font-mw'>Frontend</h3>
           <div className='flex flex-wrap justify-center gap-4 w-[90%] mx-auto'>
             <div className='hover:scale-110 dark:bg-darkBg dark:border-black dark:text-gray-200 cursor-pointer transition duration-200 flex justify-center items-center py-1 pl-2 pr-4 bg-white border border-gray-300 w-fit rounded-xl'>
@@ -67,7 +67,7 @@ const Skills: React.FC = () => {
         </div>
 
         
-        <div className="w-auto mx-auto md:w-120 px-8 py-4 h-auto rounded-xl border border-gray-200 dark:border-black hover:-translate-y-2 transition duration-250 shadow-md bg-[#f6f6f6] dark:bg-[#202020]">
+        <div className="w-auto mx-auto md:w-120 px-8 py-4 h-auto rounded-xl border border-gray-200 dark:border-black hover:scale-105 transition duration-250 shadow-md bg-[#f6f6f6] dark:bg-[#202020]">
           <h3 className='text-center text-lg font-semibold text-gray-700 dark:text-gray-300 mb-4 font-mw'>Tools</h3>
           <div className='flex flex-wrap justify-center gap-4 w-[90%] mx-auto'>
             <div className='hover:scale-110 dark:bg-darkBg dark:border-black dark:text-gray-200 cursor-pointer transition duration-200 flex justify-center items-center gap-1 py-1 pl-2 pr-4 bg-white border border-gray-300 w-fit rounded-xl'>
