@@ -31,7 +31,7 @@ const Projects: React.FC = () => {
             assets.css,
             assets.js
           ]}
-          codeLink='https://github.com/varshithpilli/calender-events'
+          codeLink='https://github.com/varshithpilli/calendar-events'
           siteLink='https://varshithpilli.github.io/calendar-events/'
         />
 
